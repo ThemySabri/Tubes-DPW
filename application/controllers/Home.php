@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class C_Tubes extends CI_Controller {
+class Home extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -24,7 +24,7 @@ class C_Tubes extends CI_Controller {
 	}
 	public function login()
 	{
-		$this->load->view('admin/index');
+		$this->load->view('admin/login');
 	}
 	public function coba(){
 		echo "Welcome";
