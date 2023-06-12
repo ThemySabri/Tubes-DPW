@@ -13,8 +13,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="<?php echo base_url();?>assets/LP/img/favicon.png" rel="icon">
+  <link href="<?php echo base_url();?>assets/LP/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -76,7 +76,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-            <img src="assets/img/vietnam-servis.jpg" class="img-fluid" alt="">
+            <img src="<?php echo base_url();?>assets/LP/img/vietnam-servis.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
             <h3>Jaya Motor memiliki mekanik yang <br> sangat handal sampai tidak perlu <br> nengok kalo lagi servis</h3>
@@ -106,14 +106,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="clients-slider swiper">
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/honda-logo.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/honda-logo.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/honda-logo.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/honda-logo.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/honda-logo.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/honda-logo.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/honda-logo.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/honda-logo.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="<?php echo base_url();?>assets/LP/img/honda-logo.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="<?php echo base_url();?>assets/LP/img/honda-logo.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="<?php echo base_url();?>assets/LP/img/honda-logo.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="<?php echo base_url();?>assets/LP/img/honda-logo.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="<?php echo base_url();?>assets/LP/img/honda-logo.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="<?php echo base_url();?>assets/LP/img/honda-logo.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="<?php echo base_url();?>assets/LP/img/honda-logo.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="<?php echo base_url();?>assets/LP/img/honda-logo.png" class="img-fluid" alt=""></div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -170,7 +170,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/max-testi.jpeg" class="testimonial-img" alt="">
+                <img src="<?php echo base_url();?>assets/LP/img/testimonials/max-testi.jpeg" class="testimonial-img" alt="">
                 <h3>Mahmud Verstappen</h3>
                 <h4>Sales Honda Mobil</h4>
                 <p>
@@ -183,7 +183,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/gordon-testi.jpeg" class="testimonial-img" alt="">
+                <img src="<?php echo base_url();?>assets/LP/img/testimonials/gordon-testi.jpeg" class="testimonial-img" alt="">
                 <h3>Bang Gordon</h3>
                 <h4>Owner Pecel Lele Barokah</h4>
                 <p>
@@ -196,7 +196,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/jeongyeon-testi.jpg" class="testimonial-img" alt="">
+                <img src="<?php echo base_url();?>assets/LP/img/testimonials/jeongyeon-testi.jpg" class="testimonial-img" alt="">
                 <h3>Siti Jeongyeon</h3>
                 <h4>Penjual Sayur Pasar Banjaran</h4>
                 <p>
@@ -209,7 +209,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/rossi-testi.jpeg" class="testimonial-img" alt="">
+                <img src="<?php echo base_url();?>assets/LP/img/testimonials/rossi-testi.jpeg" class="testimonial-img" alt="">
                 <h3>Rossi Alkatiri</h3>
                 <h4>Pensiunan BUMN</h4>
                 <p>
@@ -222,7 +222,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/deddy-testi.jpg" class="testimonial-img" alt="">
+                <img src="<?php echo base_url();?>assets/LP/img/testimonials/deddy-testi.jpg" class="testimonial-img" alt="">
                 <h3>Dedy Korbuset</h3>
                 <h4>Tukang Sulap</h4>
                 <p>
@@ -253,7 +253,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="100">
               <div class="member-img">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                <img src="<?php echo base_url();?>assets/LP/img/team/team-1.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -271,7 +271,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="200">
               <div class="member-img">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                <img src="<?php echo base_url();?>assets/LP/img/team/team-2.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -289,7 +289,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="300">
               <div class="member-img">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                <img src="<?php echo base_url();?>assets/LP/img/team/team-3.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -307,7 +307,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="400">
               <div class="member-img">
-                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                <img src="<?php echo base_url();?>assets/LP/img/team/team-4.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -467,16 +467,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="<?php echo base_url();?>assets/LP/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="<?php echo base_url();?>assets/LP/vendor/aos/aos.js"></script>
+  <script src="<?php echo base_url();?>assets/LP/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?php echo base_url();?>assets/LP/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="<?php echo base_url();?>assets/LP/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="<?php echo base_url();?>assets/LP/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="<?php echo base_url();?>assets/LP/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="<?php echo base_url();?>assets/LP/js/main.js"></script>
 
 </body>
 
