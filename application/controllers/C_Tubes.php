@@ -26,4 +26,7 @@ class C_Tubes extends CI_Controller {
 	{
 		$this->load->view('admin/index');
 	}
+	public function coba(){
+		echo "Welcome";
+	}
 }
